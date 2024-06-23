@@ -1,7 +1,7 @@
 import React from 'react'
 import ItemCount from '../ItemCount/ItemCount'
 import { ToastContainer, toast } from 'react-toastify';
-import { Box } from '@chakra-ui/react';
+import { Card, CardBody, Text } from '@chakra-ui/react';
 
 const ItemDetail = ({ nombre, stock, descripcion }) => {
 
@@ -11,12 +11,14 @@ const ItemDetail = ({ nombre, stock, descripcion }) => {
     }
 
     return (
-        <Box>
-            nombre:{nombre}
-            descripcion:{descripcion}
-            <ItemCount stock={stock} valorInicial={1} onAdd={onAdd}/>
-            <ToastContainer />
-        </Box>
+        <Card>
+            <CardBody>
+                <Text>{nombre}</Text>
+                <Text>{descripcion}</Text>
+                <ItemCount stock={stock} valorInicial={1} onAdd={onAdd}/>
+                <ToastContainer />
+            </CardBody>
+        </Card>
     )
 }
 

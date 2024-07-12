@@ -17,7 +17,7 @@ const Item = ({nombre, precio, img, id}) => {
         />
         <Stack mt='6' spacing='3'>
           <Heading size='md'>{nombre}</Heading>
-          <Text color='blue.600' fontSize='2xl'>
+          <Text color='green.600' fontSize='2xl'>
             ${precio}
           </Text>
         </Stack>
@@ -29,12 +29,12 @@ const Item = ({nombre, precio, img, id}) => {
         <Flex spacing='2' justifyContent={'center'} align={'center'} w={'100%'}>
           <Button 
             variant='solid' 
-            bg={'#243F4D'} 
+            bg={'green.800'} 
             color={'#fff'}
-            _hover={{ bg: '#3E6478', color: '#fff' }}
+            _hover={{ bg: 'green.600', color: '#fff' }}
             >
               <Link to={`/producto/${id}`}>
-                Ver detalle
+                Ver más info
               </Link>
           </Button>
 

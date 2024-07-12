@@ -26,14 +26,16 @@ const NavBar = () => {
         justify={'space-between'} 
         align={'center'} 
         backgroundColor={'#55868C'}
+        
+        
         >
                 <Heading>
-                    <ChakraLink as={Link} width={'16%'} to='/'>
-                        <Image w={'16%'} src={logo} alt='logo'/>
+                    <ChakraLink as={Link} to='/'>
+                        <Image height={'80px'} src={logo} alt='logo'/>
                     </ChakraLink>
                 </Heading>
                 <Menu>
-                    <MenuButton as={Button} w={'35%'} rightIcon={<FaChevronDown />}>
+                    <MenuButton as={Button} w={'150px'} rightIcon={<FaChevronDown />}>
                     Categorías
                     </MenuButton>
                     <MenuList>
@@ -55,7 +57,7 @@ const NavBar = () => {
                         </MenuItem>
                     </MenuList>
                 </Menu>
-                <Link to="/cart"><CartWidget/></Link>
+                <CartWidget mr={'10px'}/>
                 
                 </Flex>
     )

@@ -15,11 +15,11 @@ const ItemCount = ({stock, valorInicial, onAdd}) => {
     }
 
   return (
-    <Flex>
-        <Button colorScheme='blue'onClick={decrementar}>-</Button>
+    <Flex gap='2'>
+        <Button colorScheme='green'onClick={decrementar}>-</Button>
         {count}
-        <Button colorScheme='blue' onClick={incrementar}>+</Button>
-        <Button onClick={() => onAdd(count)}>Agregar al carrito</Button>
+        <Button colorScheme='green' onClick={incrementar}>+</Button>
+        <Button bg={'green.500'} _hover={{ bg: 'green.600', color: '#fff' }} onClick={() => onAdd(count)}>Agregar al carrito</Button>
     </Flex>
   )
 }

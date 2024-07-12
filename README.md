@@ -1,8 +1,58 @@
-# React + Vite
+## Salidas a la montaña
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### ![image](/andando-patagonia/src/assets/images/andando-logo.jpg)
 
-Currently, two official plugins are available:
+### Vista previa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](/andando-patagonia/src/assets/images/andando-patagonia.gif)
+
+### Descripción
+
+Ecommerce creado en el curso de react de Coderhouse.
+
+
+### Construcción
+
+React
+Firebase
+
+### Dependencias
+
+Chakra
+React icons
+React router dom
+React spinners
+React toastify
+SweetAlert2
+
+### Instalación
+#### List
+- Clonar repositorio
+    - git clone https://github.com/andres-franco10/andando-patagonia
+- Moverse a la carpeta del proyecto
+    - cd andando-patagonia
+- Instalamos las dependencia
+    - npm install
+- Compilamos
+    - Npm run dev
+
+
+### Estructura
+#### NavBar
+logo
+Menu de categoria
+carrito (mochila)
+#### Body
+Listado de servicios
+Detalle del servicio
+#### Navegación
+Enrutamiento entre las diferentes vistas
+#### Carrito
+Vista del carrito de compras
+#### Checkout
+Formulario para datos del cliente
+
+#### Contacto
+
+https://www.linkedin.com/in/andres-franco10/
+

@@ -1,10 +1,10 @@
 ## Salidas a la montaña
 
-### ![image](/andando-patagonia/src/assets/images/andando-logo.jpg)
+### ![image](/src/assets/images/andando-logo.jpg)
 
 ### Vista previa
 
-![image](/andando-patagonia/src/assets/images/andando-patagonia.gif)
+![image](/src/assets/images/andando-patagonia.gif)
 
 ### Descripción
 
